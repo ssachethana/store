@@ -1,5 +1,12 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# cloudflare / opennext
+/.open-next/
+.wrangler/
+.dev.vars
+cloudflare-env.d.ts
+
+
 # dependencies
 /node_modules
 /.pnp
