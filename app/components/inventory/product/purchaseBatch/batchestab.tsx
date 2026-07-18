@@ -2,8 +2,8 @@
 
 // components/product/BatchesTab.tsx
 import React, { useState, useEffect } from 'react';
-import type { Batch, BatchForm } from '../../../types/product-types'; // adjust path as needed
-import { BATCH_FORM_DEFAULT } from '../../../types/product-types';
+import type { Batch, BatchForm } from '@/app/types/product-types'; // adjust path as needed
+import { BATCH_FORM_DEFAULT } from '@/app/types/product-types';
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 
